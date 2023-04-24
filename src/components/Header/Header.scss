@@ -1,0 +1,42 @@
+.header-container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  // border-bottom: 1px solid black;
+  padding: 15px 35px;
+  background-color: white;
+  .barsIcon {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    &:hover {
+      background-color: rgb(236, 235, 235);
+    }
+  }
+  img {
+    width: 80px;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  form {
+    margin-left: 250px;
+    input {
+      width: 450px;
+      padding: 10px 15px;
+      font-size: 17px;
+      letter-spacing: 0.8px;
+      border-radius: 50px;
+      outline: none;
+      border: 1px solid lightgray;
+    }
+    .searchIcon {
+      margin-left: -40px;
+      margin-top: 10px;
+      position: absolute;
+      font-size: 20px;
+      color: gray;
+    }
+  }
+}

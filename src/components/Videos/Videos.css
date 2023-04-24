@@ -1,0 +1,27 @@
+.videos-container {
+  margin-left: 200px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.videos-container .video-container {
+  width: 300px;
+  height: 250px;
+  margin-left: 35px;
+  margin-top: 80px;
+  cursor: pointer;
+}
+.videos-container .video-container img {
+  width: 300px;
+  height: 180px;
+  border-radius: 10px;
+}
+.videos-container .video-container p {
+  margin-top: 5px;
+  margin-left: 8px;
+}
+.videos-container .video-container .videoChannel {
+  margin-top: -8px;
+}
+.videos-container .video-container .videoName {
+  font-weight: 500;
+}/*# sourceMappingURL=Videos.css.map */
